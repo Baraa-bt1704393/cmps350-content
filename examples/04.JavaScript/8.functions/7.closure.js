@@ -3,12 +3,10 @@ const digitName = function () {
         "zero", "one", "two", "three", "four",
         "five", "six", "seven", "eight", "nine"
     ];
-
     return function (n) {
         return names[n];
     };
 };
-
 const getDigitName = digitName();
 console.log(getDigitName(3));    // "three"
 console.log(getDigitName(9));    // "nine"
